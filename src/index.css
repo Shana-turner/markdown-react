@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply bg-indigo-300 p-1.5 rounded-md border-none text-white uppercase 
+  text-xs
+}
+#markdown-preview h1 {
+  font-size: 2em; /* Or any desired size */
+  margin-bottom: 0.5em;
+}
+
+#markdown-preview h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#markdown-preview ol{
+  list-style-type: decimal;
+}
+
+#markdown-preview ul{
+  list-style-type:circle;
+}
